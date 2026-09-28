@@ -1,0 +1,10 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo "Running pre-commit verification..."
+
+npm run typecheck || exit 1
+npm run lint || exit 1
+npm run test || exit 1
+
+echo "Pre-commit verification passed."

@@ -1,0 +1,6 @@
+file,expectedCategory,expectedDocType,expectedFields
+cac_certificate_synth.json,registration,cac_certificate,"{""businessName"":""Lekki Green Energies Ltd"",""rcNumber"":""RC-887766""}"
+status_report_synth.json,registration,status_report,"{""businessName"":""Kano Agro Processing Ltd"",""rcNumber"":""RC-445566""}"
+tax_clearance_synth.json,tax,tax_clearance,"{""tin"":""TIN-99887766"",""taxYear"":""2025""}"
+tin_letter_synth.json,tax,tin_letter,"{""tin"":""TIN-11223344"",""issueDate"":""2024-05-15""}"
+tender_notice_synth.json,tender,tender_notice,"{""tenderTitle"":""Solar Microgrid Procurement"",""issuingOrganization"":""Rural Electrification Agency""}"

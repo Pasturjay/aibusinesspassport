@@ -1,0 +1,12 @@
+{
+  "documentCategory": "tax",
+  "documentType": "tin_letter",
+  "businessName": "Ibadan Tech Hub",
+  "taxId": "TIN-11223344",
+  "issueDate": "2024-05-15",
+  "confidence": 0.94,
+  "extractedFields": {
+    "tin": "TIN-11223344",
+    "issueDate": "2024-05-15"
+  }
+}

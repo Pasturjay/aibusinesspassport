@@ -1,0 +1,11 @@
+{
+  "documentCategory": "registration",
+  "documentType": "cac_certificate",
+  "businessName": "Lekki Green Energies Ltd",
+  "registrationNumber": "RC-887766",
+  "confidence": 0.95,
+  "extractedFields": {
+    "businessName": "Lekki Green Energies Ltd",
+    "rcNumber": "RC-887766"
+  }
+}

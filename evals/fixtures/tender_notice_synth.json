@@ -1,0 +1,11 @@
+{
+  "documentCategory": "tender",
+  "documentType": "tender_notice",
+  "tenderTitle": "Solar Microgrid Procurement",
+  "issuingOrganization": "Rural Electrification Agency",
+  "confidence": 0.88,
+  "extractedFields": {
+    "tenderTitle": "Solar Microgrid Procurement",
+    "issuingOrganization": "Rural Electrification Agency"
+  }
+}

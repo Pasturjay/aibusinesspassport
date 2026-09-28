@@ -1,0 +1,110 @@
+[
+  {
+    "ruleKey": "CAC_ANNUAL_RETURNS_PL",
+    "version": 1,
+    "title": "[PLACEHOLDER — NOT REVIEWED] CAC Annual Returns Filing",
+    "plainLanguageSummary": "File your annual returns with CAC to keep your registered status active.",
+    "appliesWhen": { "path": "identity.businessType", "in": ["limited_company", "business_name", "incorporated_trustees"] },
+    "obligationType": "filing",
+    "recurrence": { "frequency": "annual", "dueDateRule": "FIXED:06-30" },
+    "jurisdiction": "federal",
+    "agency": "CAC",
+    "steps": [
+      { "title": "Prepare Annual Financial Summary", "description": "Gather annual turnover and director details." },
+      { "title": "Submit on CAC Portal", "description": "Pay filing fee and submit annual return form." }
+    ],
+    "estimatedCost": "₦5,000 - ₦10,000",
+    "source": { "name": "CAMA 2020 s. 822" },
+    "effectiveDate": "2020-01-01",
+    "lastReviewedAt": "2025-01-01T00:00:00Z",
+    "reviewedBy": "Placeholder System",
+    "status": "draft",
+    "confidenceIfMatched": 0.95
+  },
+  {
+    "ruleKey": "FIRS_CIT_PL",
+    "version": 1,
+    "title": "[PLACEHOLDER — NOT REVIEWED] FIRS Companies Income Tax (CIT)",
+    "plainLanguageSummary": "File annual Companies Income Tax returns with FIRS on TaxPro Max.",
+    "appliesWhen": { "path": "identity.businessType", "equals": "limited_company" },
+    "obligationType": "tax",
+    "recurrence": { "frequency": "annual", "dueDateRule": "FIXED:06-30" },
+    "jurisdiction": "federal",
+    "agency": "FIRS",
+    "steps": [
+      { "title": "Log in to TaxPro Max", "description": "Access TaxPro Max portal using TIN." },
+      { "title": "File CIT Return", "description": "Upload audited financial statements." }
+    ],
+    "estimatedCost": "Varies by turnover",
+    "source": { "name": "Companies Income Tax Act (CITA) Cap C21 LFN 2004" },
+    "effectiveDate": "2004-01-01",
+    "lastReviewedAt": "2025-01-01T00:00:00Z",
+    "reviewedBy": "Placeholder System",
+    "status": "draft",
+    "confidenceIfMatched": 0.9
+  },
+  {
+    "ruleKey": "LIRS_PAYE_PL",
+    "version": 1,
+    "title": "[PLACEHOLDER — NOT REVIEWED] State PAYE Annual Tax Returns",
+    "plainLanguageSummary": "File annual PAYE employer returns with state Internal Revenue Service.",
+    "appliesWhen": { "path": "operations.hasEmployees", "equals": true },
+    "obligationType": "tax",
+    "recurrence": { "frequency": "annual", "dueDateRule": "FIXED:01-31" },
+    "jurisdiction": "state",
+    "agency": "LIRS / State IRS",
+    "steps": [
+      { "title": "Compile Form H1", "description": "Prepare employee tax deductions summary." },
+      { "title": "File Form H1", "description": "Submit Form H1 on state IRS portal." }
+    ],
+    "estimatedCost": "Statutory PAYE rates",
+    "source": { "name": "Personal Income Tax Act (PITA) s. 41" },
+    "effectiveDate": "2011-01-01",
+    "lastReviewedAt": "2025-01-01T00:00:00Z",
+    "reviewedBy": "Placeholder System",
+    "status": "draft",
+    "confidenceIfMatched": 0.92
+  },
+  {
+    "ruleKey": "SCUML_REGISTRATION_PL",
+    "version": 1,
+    "title": "[PLACEHOLDER — NOT REVIEWED] SCUML AML Certificate",
+    "plainLanguageSummary": "Register with Special Control Unit Against Money Laundering if operating in designated sectors.",
+    "appliesWhen": { "path": "identity.industry", "in": ["Real Estate", "Legal Services", "Accounting", "Car Dealership", "Jewelry"] },
+    "obligationType": "licence",
+    "recurrence": { "frequency": "one_off", "dueDateRule": "MONTHS_AFTER_REG:3" },
+    "jurisdiction": "federal",
+    "agency": "SCUML / EFCC",
+    "steps": [
+      { "title": "Submit SCUML Application", "description": "Upload CAC certificate and director IDs." }
+    ],
+    "estimatedCost": "Free statutory registration",
+    "source": { "name": "Money Laundering (Prevention and Prohibition) Act 2022" },
+    "effectiveDate": "2022-01-01",
+    "lastReviewedAt": "2025-01-01T00:00:00Z",
+    "reviewedBy": "Placeholder System",
+    "status": "draft",
+    "confidenceIfMatched": 0.88
+  },
+  {
+    "ruleKey": "NSITF_ECA_PL",
+    "version": 1,
+    "title": "[PLACEHOLDER — NOT REVIEWED] NSITF Employees Compensation Act",
+    "plainLanguageSummary": "Register and pay 1% monthly payroll contribution for workplace injury insurance.",
+    "appliesWhen": { "path": "operations.hasEmployees", "equals": true },
+    "obligationType": "compliance",
+    "recurrence": { "frequency": "monthly", "dueDateRule": "FIXED:01-31" },
+    "jurisdiction": "federal",
+    "agency": "NSITF",
+    "steps": [
+      { "title": "Calculate 1% Payroll", "description": "Compute 1% of total monthly employee payroll." }
+    ],
+    "estimatedCost": "1% of monthly payroll",
+    "source": { "name": "Employees Compensation Act 2010" },
+    "effectiveDate": "2010-01-01",
+    "lastReviewedAt": "2025-01-01T00:00:00Z",
+    "reviewedBy": "Placeholder System",
+    "status": "draft",
+    "confidenceIfMatched": 0.93
+  }
+]

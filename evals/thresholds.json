@@ -1,0 +1,7 @@
+{
+  "documentClassificationAccuracy": 0.95,
+  "extractionFieldAccuracy": 0.90,
+  "confidenceCalibration": 0.85,
+  "groundingAccuracy": 0.95,
+  "tenderExtractionAccuracy": 0.90
+}

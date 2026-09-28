@@ -1,0 +1,12 @@
+{
+  "documentCategory": "tax",
+  "documentType": "tax_clearance",
+  "businessName": "Lekki Green Energies Ltd",
+  "taxId": "TIN-99887766",
+  "taxYear": "2025",
+  "confidence": 0.89,
+  "extractedFields": {
+    "tin": "TIN-99887766",
+    "taxYear": "2025"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "documentCategory": "registration",
+  "documentType": "status_report",
+  "businessName": "Kano Agro Processing Ltd",
+  "registrationNumber": "RC-445566",
+  "confidence": 0.92,
+  "extractedFields": {
+    "businessName": "Kano Agro Processing Ltd",
+    "rcNumber": "RC-445566"
+  }
+}
